@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+# Wrapper script around Growl::GNTP to send messages to a Growl receiver if it's listening on a network interface
+# Author: Dan Achim (dan@hostatic.ro)
+
 # Required modules
 use Growl::GNTP;  # This needs to be installed from CPAN
 use Getopt::Long qw(:config no_ignore_case);
